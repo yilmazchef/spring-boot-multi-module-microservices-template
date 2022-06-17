@@ -8,14 +8,14 @@
 		<artifactId>spring-multi-module-service</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	
+
 	<artifactId>service-a</artifactId>
 	<name>service-a</name>
 	<description>Service A</description>
 
 	<properties>
 		<java.version>11</java.version>
-		<spring-boot.build-image.imageName>narramadan/${parent.artifactId}-${project.artifactId}</spring-boot.build-image.imageName>
+		<spring-boot.build-image.imageName>yilmazchef/${parent.artifactId}-${project.artifactId}</spring-boot.build-image.imageName>
 	</properties>
 
 	<dependencies>

@@ -1,11 +1,11 @@
 dependencies {
-  implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
+    implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
 }
 
 bootJar {
-	enabled = true
+    enabled = true
 }
 
-bootBuildImage{ 
-  imageName='narramadan/'+rootProject.name+'-'+project.name
+bootBuildImage {
+    imageName = 'yilmazchef/' + rootProject.name + '-' + project.name
 }

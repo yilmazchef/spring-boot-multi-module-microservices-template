@@ -5,7 +5,7 @@ services:
 
   # Service A
   service-a:
-    image: narramadan/spring-multi-module-service-service-a
+    image: yilmazchef/spring-multi-module-service-service-a
     ports:
       - "8081:8080"
     restart: always
@@ -21,7 +21,7 @@ services:
 
   # Service B
   service-b:
-    image: narramadan/spring-multi-module-service-service-b
+    image: yilmazchef/spring-multi-module-service-service-b
     ports:
       - "8082:8080"
     restart: always
@@ -32,7 +32,7 @@ services:
 
   # Service C
   service-c:
-    image: narramadan/spring-multi-module-service-service-c
+    image: yilmazchef/spring-multi-module-service-service-c
     ports:
       - "8083:8080"
     restart: always

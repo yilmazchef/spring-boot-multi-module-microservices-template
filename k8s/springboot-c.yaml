@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: narramadan/spring-multi-module-service-service-c
+          image: yilmazchef/spring-multi-module-service-service-c
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
